@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/RoyalReject-Studios/Crystal-Quarry/issues"
+[[mods]]
+modId="crystalquarry"
+version="${file.jarVersion}"
+displayName="Crystal Quarry"
+logoFile="crystal-growth.png"
+authors="RoyalReject"
+description='''
+Generate ores from amethyst shards
+'''
+[[dependencies.crystalquarry]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.crystalquarry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
